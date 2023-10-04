@@ -27,8 +27,3 @@
 **cd:** no error
 **ls:** no error
 **cat:** no error
-
-
-
-```
-```
