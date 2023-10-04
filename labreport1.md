@@ -2,7 +2,9 @@
 # \~ (home directory)
 
 **cd:** there is no other directories to move to
+
 **ls:** there is lecture1 in the directory I'm currently in
+
 **cat:** no other information was included after cat, therefore nothing else shows up
 **cd:** no error
 **ls:** no error
