@@ -1,4 +1,5 @@
 #No Arguments
+
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/d480ea53-5d1f-47bb-9883-f6935128fc79)
 # \~ (home directory)
 
@@ -15,6 +16,7 @@
 **cat:** error, needs more information in order to work properly without being terminated
 
 #Directory
+
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/a8182969-eac1-4bd6-8d9b-197ab8a56128)
 ## \~ (home directory)
 
@@ -31,6 +33,7 @@
 **cat:** no error
 
 #File
+
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/d043a1d3-fbc3-4f4a-8a5b-de05c3660c1d)
 ## lecture1
 
