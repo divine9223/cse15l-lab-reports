@@ -1,6 +1,6 @@
 # No Arguments
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/d480ea53-5d1f-47bb-9883-f6935128fc79)
-# \~ (home directory)
+## \~ (home directory)
 
 **cd:** there is no other directories to move to
 
