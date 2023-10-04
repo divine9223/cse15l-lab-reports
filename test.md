@@ -2,7 +2,7 @@
 **Bold**
 # Heading 1
 ## Heading 2
-[Link] (https://divine9223.github.io/cse15l-lab-reports)
+[Link](https://divine9223.github.io/cse15l-lab-reports)
 > Blockquote
 * List
 * List
