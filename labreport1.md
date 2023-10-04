@@ -6,7 +6,7 @@
 **cd:** no error
 **ls:** no error
 **cat:** error, needs more information in order to work properly without being terminated
-
+---
 2. ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/a8182969-eac1-4bd6-8d9b-197ab8a56128)
 # \~ (home directory)
 **cd:** moved directory to ~, which is the same directory it started with
@@ -15,7 +15,7 @@
 **cd:** no error
 **ls:** no error
 **cat:** no error
-
+---
 3. ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/d043a1d3-fbc3-4f4a-8a5b-de05c3660c1d)
 # lecture1
 **cd:** the file is not a directory
