@@ -8,9 +8,9 @@
 
 `cat`: no other information was included after cat, therefore nothing else shows up
 
-`cd`: no error
+`cd`: no error, wasn't given a directory to change into therefore nothing occured.
 
-`ls`: no error
+`ls`: no error, ls listed what was in the current directory (home) which was lecture1
 
 `cat`: error, needs more information in order to work properly without being terminated
 
@@ -24,11 +24,11 @@
 
 `cat`: mentioned that ~ is the home directory
 
-`cd`: no error
+`cd`: no error, changed directory from home (~) to home (~)
 
-`ls`: no error
+`ls`: no error, listed the files and directories in ~ which was lecture1
 
-`cat`: no error
+`cat`: error, used to display contents of files not directories
 
 # File
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/d043a1d3-fbc3-4f4a-8a5b-de05c3660c1d)
@@ -40,8 +40,8 @@
 
 `cat`: read what was in the Hello.java file
 
-`cd`: no error
+`cd`: no error, can't change directories to a file
 
-`ls`: no error
+`ls`: no error, listed the files/directories in Hello.java
 
-`cat`: no error
+`cat`: no error, read what was in the Hello.java file
