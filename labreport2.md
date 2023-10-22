@@ -1,4 +1,4 @@
-#Part 1
+# Part 1
 StringServer.java
 ```
 import java.io.IOException;
@@ -103,8 +103,8 @@ public class Server {
     }
 }
 ```
-#Part 2
+# Part 2
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/748d61e8-dca2-48ca-8cae-f953b7fb4d95)
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/6799b541-9273-4e13-a4f8-8cd56dd577cd)
-#Part 3
+# Part 3
 Something I learned from this lab is how to code a server and more specifically how to make sure that a space in the URL, which gets turned into %20, would be converted into a space when being shown on the server. I also learned how to add a message so that the server remembers it for the next prompt.
