@@ -47,6 +47,7 @@ class StringServer {
     }
 }
 ```
+## Screenshots
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/64d6d50f-e567-4701-a9af-8300efdb38df)
 Methods called:
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
