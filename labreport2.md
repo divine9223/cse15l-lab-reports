@@ -1,6 +1,7 @@
 #Part 1
 StringServer.java
-'import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
@@ -44,9 +45,11 @@ class StringServer {
 
         Server.start(port, new Handler());
     }
-}'
+}
+```
 Server.java < taken from the previous lab
-'// A simple web server using Java's built-in HttpServer
+```
+// A simple web server using Java's built-in HttpServer
 
 // Examples from https://dzone.com/articles/simple-http-server-in-java were useful references
 
@@ -98,7 +101,8 @@ public class Server {
         server.start();
         System.out.println("Server Started!");
     }
-}'
+}
+```
 #Part 2
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/748d61e8-dca2-48ca-8cae-f953b7fb4d95)
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/6799b541-9273-4e13-a4f8-8cd56dd577cd)
