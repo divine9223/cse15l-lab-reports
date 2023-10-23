@@ -49,13 +49,20 @@ class StringServer {
 ```
 ## Screenshots
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/64d6d50f-e567-4701-a9af-8300efdb38df)
-Methods called:
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+### Methods called:
+handleRequest, toString, substring, getQuery, decode, append
+### Relevant arguments for the above methods and values of any relevant fields of the class:
+handleRequest: URI url, looks at the url provided; substring: 2, starts to add the query after the 2nd index (skips s= and adds message after the =), decode: encodedMessage, "UTF-8", takes the encoded message and decodes it assuming its encoded in UTF-8; append: count, . , decodedMessage, \n, all are arguments for the method because it needs to create the message line with the count of the line, a period next to the count indicating which line, the message, and to start the message that follows on a new line.
+### How the values of relevant fields of the class change from the request:
+URI url changes based on what is to be added: http://0-0-0-0-2003-9mt64d73n3g27ubknqquvfvbc.us.edusercontent.com/add-message?s=Hello, substring's argument 2 will not change because it will always take the message after the = sign at index 2, decode's encodedMessage will change based on what the encoded message is: Hello, append's count and decoded message will change because if you call /add-message multiple times the count will continue to go up and the decoded message can change each time it's inputted: 1, Hello
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/9e97c3d3-028d-4eb6-87bf-792d23568c2d)
-Methods called:
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+### Methods called:
+Same methods are called from before: handleRequest, toString, substring, getQuery, decode, append
+### Relevant arguments for the above methods and values of any relevant fields of the class:
+The same arguments are relevant due to the same methods being called. handleRequest: URI url, looks at the url provided; substring: 2, starts to add the query after the 2nd index (skips s= and adds message after the =), decode: encodedMessage, "UTF-8", takes the encoded message and decodes it assuming its encoded in UTF-8; append: count, . , decodedMessage, \n, all are arguments for the method because it needs to create the message line with the count of the line, a period next to the count indicating which line, the message, and to start the message that follows on a new line.
+### How the values of relevant fields of the class change from the request:
+Same values are being changed. URI url changes based on what is to be added: http://0-0-0-0-2003-9mt64d73n3g27ubknqquvfvbc.us.edusercontent.com/add-message?s=How%20are%20you, substring's argument 2 will not change because it will always take the message after the = sign at index 2, decode's encodedMessage will change based on what the encoded message is: How%20are%20you, append's count and decoded message will change because if you call /add-message multiple times the count will continue to go up and the decoded message can change each time it's inputted: 2, How are you
+
 
 
 # Part 2
