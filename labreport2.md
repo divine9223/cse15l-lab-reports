@@ -54,7 +54,7 @@ class StringServer {
 ### Relevant arguments for the above methods and values of any relevant fields of the class:
 handleRequest: URI url, looks at the url provided; substring: 2, starts to add the query after the 2nd index (skips s= and adds message after the =), decode: encodedMessage, "UTF-8", takes the encoded message and decodes it assuming its encoded in UTF-8; append: count, . , decodedMessage, \n, all are arguments for the method because it needs to create the message line with the count of the line, a period next to the count indicating which line, the message, and to start the message that follows on a new line.
 ### How the values of relevant fields of the class change from the request:
-URI url changes based on what is to be added: http://0-0-0-0-2003-9mt64d73n3g27ubknqquvfvbc.us.edusercontent.com/add-message?s=Hello, substring's argument 2 will not change because it will always take the message after the = sign at index 2, decode's encodedMessage will change based on what the encoded message is: Hello, append's count and decoded message will change because if you call /add-message multiple times the count will continue to go up and the decoded message can change each time it's inputted: 1, Hello
+URI url changes based on what is to be added: http://0-0-0-0-2003-9mt64d73n3g27ubknqquvfvbc.us.edusercontent.com/add-message?s=Hello, substring's argument 2 will not change because it will always take the message after the = sign at index 2, decode's encodedMessage will change based on what the encoded message is: Hello, append's count and decoded message will change because if you call /add-message multiple times the count will continue to go up and the decoded message can change each time it's inputted: 1, Hello. StringBuilder strings gets changed by appending the count, ". ", the message, and a new line. int count kept track of the number of lines we were at and increased with more message lines.
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/9e97c3d3-028d-4eb6-87bf-792d23568c2d)
 ### Methods called:
 Same methods are called from before: handleRequest, toString, substring, getQuery, decode, append
@@ -66,7 +66,10 @@ Same values are being changed. URI url changes based on what is to be added: htt
 
 
 # Part 2
-![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/748d61e8-dca2-48ca-8cae-f953b7fb4d95)
+![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/3bf24371-b716-40b7-bfda-b5478d0eedc4)
+
+![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/40dcca65-c026-4268-bb78-b311c180cf97)
+
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/6799b541-9273-4e13-a4f8-8cd56dd577cd)
 # Part 3
 Something I learned from this lab is how to code a server and more specifically how to make sure that a space in the URL, which gets turned into %20, would be converted into a space when being shown on the server. I also learned how to add a message so that the server remembers it for the next prompt.
