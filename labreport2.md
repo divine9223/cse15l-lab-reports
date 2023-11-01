@@ -50,7 +50,7 @@ class StringServer {
 ## Screenshots
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/64d6d50f-e567-4701-a9af-8300efdb38df)
 ### Methods called:
-handleRequest, toString, substring, getQuery, decode, append
+`handleRequest, toString, substring, getQuery, decode, append`
 ### Relevant arguments for the above methods and values of any relevant fields of the class:
 handleRequest: URI url, looks at the url provided; substring: 2, starts to add the query after the 2nd index (skips s= and adds message after the =), decode: encodedMessage, "UTF-8", takes the encoded message and decodes it assuming its encoded in UTF-8; append: count, . , decodedMessage, \n, all are arguments for the method because it needs to create the message line with the count of the line, a period next to the count indicating which line, the message, and to start the message that follows on a new line.
 ### How the values of relevant fields of the class change from the request:
