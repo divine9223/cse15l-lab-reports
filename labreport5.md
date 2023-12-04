@@ -7,6 +7,7 @@ __TA:__ Hello Student! Are you sure that you are using the right commands based 
 __Student:__ Oh! I got it, didn't realize it was the macOS commands when I have Windows. So the bug was that I was using macOS commands to compile and run the code when I should've changed it to be Windows. ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/fabae46c-09e9-4112-aac7-0b447658c2ae)
 
 <hr>
+
 ### Directory Structure
 lab7/ <br>
 │ <br>
