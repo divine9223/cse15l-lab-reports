@@ -1,5 +1,5 @@
 ### Step 4: ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/4541d05f-eec1-41ea-bb56-7faad2c44842) <br>
-Keys pressed: <up><enter> ssh log in was one above since I had previously used it<br>
+Keys pressed: \<up\>\<enter\> ssh log in was one above since I had previously used it<br>
 ### Step 5: ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/b4713191-d3b1-41b5-bd07-2e46da79ce60)<br>
 Keys pressed: <alt><tab> Tabbed to repo with lab7,<br>
 <clicked> Clicked on copy since ssh link was already pulled up on the github lab7 repo<br>
