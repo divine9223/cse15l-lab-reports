@@ -8,13 +8,13 @@ __Student:__ Oh! I got it, didn't realize it was the macOS commands when I have 
 
 <hr>
 ### Directory Structure
-lab7/
-│
-├── ListExamples.java
-│
-├── ListExamplesTests.java
-│
-└── test.sh
+lab7/ <br>
+│ <br>
+├── ListExamples.java <br>
+│ <br>
+├── ListExamplesTests.java <br>
+│ <br>
+└── test.sh <br>
 
 ### Before Code fixed
 ![image](https://github.com/divine9223/cse15l-lab-reports/assets/147002921/9504e9a1-cb67-4374-a529-56080d71e577)
